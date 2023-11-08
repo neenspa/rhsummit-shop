@@ -1,0 +1,18 @@
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  labels:
+    backstage.io/kubernetes-id: rhsummit-shop
+    app.kubernetes.io/name: rhsummit-shop
+    rht-gitops.com/janus-argocd: rhsummit-shop
+  name: storeuser-sa
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  labels:
+    backstage.io/kubernetes-id: rhsummit-shop
+    app.kubernetes.io/name: rhsummit-shop
+    rht-gitops.com/janus-argocd: rhsummit-shop
+  name: storeuseradmin-sa

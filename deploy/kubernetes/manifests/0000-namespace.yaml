@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: rhsum-shop
+  labels:
+    backstage.io/kubernetes-id: rhsummit-shop
+    app.kubernetes.io/name: rhsummit-shop
+    rht-gitops.com/janus-argocd: rhsummit-shop
+spec:
